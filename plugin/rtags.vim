@@ -1,4 +1,4 @@
-if has('nvim') || (has('job') && has('channel'))
+if has('nvim') || (has('job') && has('channel') && v:version >= 800)
     let s:rtagsAsync = 1
     let s:job_cid = 0
     let s:jobs = {}
